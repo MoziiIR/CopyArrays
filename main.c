@@ -10,7 +10,7 @@ void main()
     uint32_t *b;
     b = cpy_arr(a,7);
 
-    for(int i=0;i<7;i++) printf("%3d",b[i]);
+    for(int i=0;i<7;i++) printf("%3u",b[i]);
   
 }
 
