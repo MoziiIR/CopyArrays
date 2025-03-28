@@ -11,6 +11,7 @@ void main()
     b = cpy_arr(a,7);
 
     for(int i=0;i<7;i++) printf("%3u",b[i]);
+    free(b);
   
 }
 
